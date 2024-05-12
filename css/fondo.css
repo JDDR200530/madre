@@ -1,0 +1,31 @@
+body{
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-style: normal;
+    background: rgb(181, 42, 42);
+   background-image: url("https://st.depositphotos.com/1814083/1798/v/450/depositphotos_17980373-stock-illustration-red-hearts-seamless-background.jpg");
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+#Titulo{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-style: italic;
+
+}
+#button{
+    background:linear-gradient(90deg, rgb(160, 20, 148) 0%, rgb(230, 7, 7) 0%, rgb(239, 7, 150) 100%); 
+    color: white;
+    width: 30%;
+    height: 30%;
+    border: 1px solid;
+    border-radius: 25px;
+    font-size: 18px;
+    cursor: pointer;
+    outline: none;
+
+}
+

@@ -1,0 +1,117 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+#ima {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+.animacion {
+    width: 100px;
+    height: 100px;
+    background-image: url('/img/corazon.png'); /* Ruta de la imagen del corazón */
+    background-size: cover; /* Ajusta el tamaño de la imagen al tamaño del contenedor */
+    position: absolute;
+    bottom: -100px; /* Comienza desde la barra de tareas */
+    animation: aparecer-desaparecer 4s ease-in-out infinite alternate;
+}
+
+.animacion:nth-child(1){
+    left: -100px; /* Comienza desde fuera del área visible */
+    animation-duration: 3s;
+    animation-delay: 3s;
+}
+
+.animacion:nth-child(2){
+    left: 150%; /* Posición inicial fuera del área visible */
+    animation-duration: 3s;
+    animation-delay: 3s;
+}
+
+.animacion:nth-child(3){
+    left: 295%; /* Posición inicial fuera del área visible */
+    animation-duration: 3s;
+    animation-delay: 3s;
+}
+
+.animacion:nth-child(4){
+    left: 440%; /* Posición inicial fuera del área visible */
+    animation-duration: 3s;
+    animation-delay: 3s;
+}
+
+.animacion:nth-child(5){
+    left: 545%; /* Posición inicial fuera del área visible */
+    animation-duration: 3s;
+    animation-delay: 3s;
+}
+
+.animacion:nth-child(6){
+    left: 690%; /* Posición inicial fuera del área visible */
+    animation-duration: 3s;
+    animation-delay: 3s;
+}
+.animacion:nth-child(7){
+    left: 835%; /* Posición inicial fuera del área visible */
+    animation-duration: 3s;
+    animation-delay: 3s;
+}
+.animacion:nth-child(8){
+    left: 980%; /* Posición inicial fuera del área visible */
+    animation-duration: 3s;
+    animation-delay: 3s;
+}
+.animacion:nth-child(9){
+    left: 1125%; /* Posición inicial fuera del área visible */
+    animation-duration: 3s;
+    animation-delay: 3s;
+}
+.animacion:nth-child(10){
+    left: 1270%; /* Posición inicial fuera del área visible */
+    animation-duration: 3s;
+    animation-delay: 3s;
+}
+.animacion:nth-child(11){
+    left: 1415%; /* Posición inicial fuera del área visible */
+    animation-duration: 3s;
+    animation-delay: 3s;
+}
+.animacion:nth-child(12){
+    left: 1560%; /* Posición inicial fuera del área visible */
+    animation-duration: 3s;
+    animation-delay: 3s;
+}
+.animacion:nth-child(13){
+    left: 1705%; /* Posición inicial fuera del área visible */
+    animation-duration: 3s;
+    animation-delay: 3s;
+}
+.animacion:nth-child(14){
+    left: 1850%; /* Posición inicial fuera del área visible */
+    animation-duration: 3s;
+    animation-delay: 3s;
+}
+
+
+
+
+
+@keyframes aparecer-desaparecer {
+    0% {
+        bottom: -100px; /* Comienza desde la barra de tareas */
+        opacity: 0;
+    }
+    50% {
+        opacity: .4;
+    }
+    100% {
+        bottom: 100vh;
+        opacity: 0;
+    }
+}
